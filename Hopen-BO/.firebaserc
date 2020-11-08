@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "hopen-back": {
+      "hosting": {
+        "Hopen-BO": [
+          "hopen-back"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+@import "./color.v3";
+
+$closeButtonSize: 16px;
+
+
+.main-button {
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  font-family: Poppins;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+
+  &.medium {
+    padding: 10px 30px;
+  }
+
+  &.big {
+    padding: 10px 50px;
+  }
+
+  &.blue {
+    background-color: $primary-blue;
+  }
+
+  &.jade {
+    background-color: $primary-jade;
+  }
+
+  &.warn {
+    background-color: $status-red;
+  }
+
+  &.advantage {
+    background-color: $secondary-purple-0-85;
+  }
+
+  &.small-font {
+    text-transform: lowercase;
+  }
+
+  &:disabled {
+    background-color: rgb(236, 236, 236);
+    color: rgb(182, 182, 182);
+    cursor: none;
+    box-shadow: none;
+  }
+
+  &:hover, &:focus {
+    opacity: 0.9;
+  }
+}
+
+.secondary-button {
+  border-radius: 4px;
+  font-size: 0.9em;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px;
+  padding: 10px;
+  text-transform: uppercase;
+
+  &.big {
+    padding: 10px 50px;
+  }
+
+  &.jade {
+    color: $primary-jade;
+    border-color: $primary-jade;
+
+    &:hover, &:focus {
+      background-color: $primary-jade-0-3;
+    }
+  }
+
+  &.blue {
+    color: $primary-blue;
+    border-color: $primary-blue;
+
+    &:hover, &:focus {
+      background-color: $primary-blue-0-3;
+    }
+  }
+
+  &.grey {
+    color: $disabled-grey;
+    border-color: $disabled-grey;
+
+    &:hover, &:focus {
+      background-color: $disabled-grey-0-3;
+    }
+  }
+
+  &.small-font {
+    text-transform: lowercase;
+  }
+
+  &.without-border {
+    border: none;
+    box-shadow: none;
+
+    &:hover, &:focus {
+      background-color: transparent;
+      opacity: 0.9;
+    }
+  }
+}
+
+.tertiary-button {
+  font-family: Poppins;
+  font-size: 0.75em;
+  line-height: 1.5;
+  letter-spacing: 0.44px;
+  text-decoration: underline $primary-blue;
+
+  &:hover, &:focus {
+    opacity: 0.8;
+  }
+
+  &.blue {
+    color: $primary-blue;
+  }
+
+  &.jade {
+    color: $primary-jade;
+    text-decoration: underline $primary-jade;
+  }
+
+  &.thin {
+    font-weight: 400;
+  }
+}
+
+.tertiary-bis-button {
+  font-family: Poppins;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+
+  &.blue {
+    color: $primary-blue
+  }
+
+  &.white {
+    color: white;
+  }
+}
+
+.close-button {
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+
+  &:hover, &:focus {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  &:before, &:after {
+    position: absolute;
+    left: 0;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background-color: white;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+
+  &.white {
+    &:before, &:after {
+      background-color: white;
+    }
+  }
+
+  .blue {
+    &:before, &:after {
+      background-color: blue;
+    }
+  }
+
+
+}
+
+.main-button:hover, .secondary-button:hover, .tertiary-button:hover, .tertiary-bis-button:hover {
+  cursor: pointer;
+}

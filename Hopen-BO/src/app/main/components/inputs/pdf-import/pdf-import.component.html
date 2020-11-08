@@ -1,0 +1,20 @@
+<div [formGroup]="pdfForm" class="flex center">
+  <div class="margin__vertical" >
+    <input type="radio" id="catalaog" formControlName="type" value="catalogue"
+           checked>
+    <label for="catalaog">Catalogue</label>
+  </div>
+  <div>
+    <input type="radio" id="menu" formControlName="type" value="menu"
+           checked>
+    <label for="menu">Menu</label>
+  </div>
+
+</div>
+<div class="input-file-container">
+  <input class="input-file" id="my-file" type="file" (change)="onSelectFiles($event)" accept="application/pdf">
+  <label for="my-file" class="input-file-trigger" tabindex="0">
+    Choisir un Pdf
+  </label>
+</div>
+<p class="file-return"> {{pdfForm.get('file')?.value?.metadata?.name || pdfForm.get('file')?.value?.name }}</p>

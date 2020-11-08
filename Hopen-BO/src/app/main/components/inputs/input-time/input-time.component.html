@@ -1,0 +1,15 @@
+<form [formGroup]="timeGroup" class="flex center">
+  <div>
+    <select formControlName="hour" (change)="onSelect()">
+      <option *ngFor="let hour of hours" [value]="hour"> {{hour}}</option>
+    </select>
+  </div>
+  <div class="margin__horizontal">
+    <p class="margin__none"> : </p>
+  </div>
+  <div class="margin__vertical">
+    <select formControlName="minute" (change)="onSelect()">
+      <option *ngFor="let minute of minutes" [value]="minute"> {{minute}}</option>
+    </select>
+  </div>
+</form>

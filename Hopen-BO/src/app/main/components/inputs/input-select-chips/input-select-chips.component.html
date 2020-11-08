@@ -1,0 +1,16 @@
+<div *ngIf="list " class="full-width">
+  <div class="flex margin__vertical">
+    <ng-container *ngFor="let elem of (elementsSelected|keyvalue)">
+      <p class="chips">  {{list[elem.key]}}    <span (click)="removeElem(elem.key)">X</span></p>
+    </ng-container>
+  </div>
+  <select class="custom-select" [formControl]="selectControl" (change)="onSelect($event)">
+    <option value="" disabled selected>{{placeholder}}</option>
+    <ng-container *ngFor="let elem of (list|keyvalue)">
+      <option *ngIf="!elementsSelected[elem.key]"
+              [value]="elem.key">
+        {{elem.value}}
+      </option>
+    </ng-container>
+  </select>
+</div>

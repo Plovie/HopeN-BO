@@ -1,0 +1,18 @@
+<div>
+  <div *ngIf="multi && multi.length">
+    <ng-container *ngFor="let elem of multi; let i = index">
+      <p>{{elem}}
+        <span (click)="remove(i)"> X</span>
+      </p>
+    </ng-container>
+  </div>
+  <div class="full-width flex">
+  <div class="width__60">
+    <input class="custom-text" [placeholder]="placeholder" [formControl]="addCtrl" >
+  </div>
+  <div class="margin__horizontal">
+    <button class="main-button blue" (click)="add()"> Ajouter</button>
+  </div>
+
+  </div>
+</div>

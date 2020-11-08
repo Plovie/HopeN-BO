@@ -1,0 +1,13 @@
+<div class="input-address__container">
+
+  <div class="input-address__input">
+    <input class="custom-text" type="text" placeholder="Chercher une addresse" [formControl]="searchControl">
+  </div>
+  <div #addressResult class="full-width">
+    <div  *ngIf="results  && results.length" class="input-address__results">
+      <ng-container *ngFor="let res of results">
+        <p (click)="select(res)">{{res.properties.label}}</p>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+@import "../../../../../assets/scss/color.v3";
+
+.input-file-container {
+  position: relative;
+  width: 225px;
+}
+
+.input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: $primary-blue-0-8;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.input-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  padding: 14px 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* quelques styles d'interactions */
+.input-file:hover + .input-file-trigger,
+.input-file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+  background: $primary-blue-0-3;
+  color: white;
+}
+
+/* styles du retour visuel */
+.file-return {
+  margin: 0;
+}
+
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+
+.file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/* on complète l'information d'un contenu textuel uniquement lorsque le paragraphe n'est pas vide */
+.file-return:not(:empty):before {
+  content: "Pdf séléctionné: ";
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,132 @@
+
+html, body {
+  margin: 0;
+}
+
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$Hopen-BO-primary: mat-palette($mat-indigo);
+$Hopen-BO-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$Hopen-BO-warn: mat-palette($mat-red);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$Hopen-BO-theme: mat-light-theme((
+  color: (
+    primary: $Hopen-BO-primary,
+    accent: $Hopen-BO-accent,
+    warn: $Hopen-BO-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($Hopen-BO-theme);
+
+/* You can add global styles to this file, and also import other style files */
+
+.flex {
+  display: flex;
+  &.center {
+    justify-content: center;
+    align-items: center;
+  }
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.space-between{
+    justify-content: space-between;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+.full-width {
+  width: 100%;
+}
+
+.width {
+  &__45 {
+    width: 45%;
+  }
+  &__30 {
+    width: 30%;
+  }
+  &__60 {
+    width: 60%;
+  }
+}
+
+.margin {
+  &__none {
+    margin: 0!important;
+  }
+  &__horizontal {
+    margin: 0 1rem;
+  }
+  &__vertical{
+    margin: 1rem 0;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+input.custom-text {
+  display: block;
+  width: 90%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: black;
+  border: 1px solid black;
+  background: white;
+  transition: border .3s ease;
+
+  &::placeholder {
+    color: grey;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

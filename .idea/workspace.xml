@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8eea7821-ac33-499e-8464-1dd9c22c52fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HopeN-BO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/interfaces/companies.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/companies.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/crud/crud.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/crud/crud.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/crud/crud.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/crud/crud.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/list/list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/list/list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/list/list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/companies/list/list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-address/input-address.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-address/input-address.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-address/input-address.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-address/input-address.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-file/input-file.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-file/input-file.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-file/input-file.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-file/input-file.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-multi/input-multi.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-multi/input-multi.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-multi/input-multi.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-multi/input-multi.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-select-chips/input-select-chips.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-select-chips/input-select-chips.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-select-chips/input-select-chips.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-select-chips/input-select-chips.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-time/input-time.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-time/input-time.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-time/input-time.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-time/input-time.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-wysiwyg/input-wysiwyg.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-wysiwyg/input-wysiwyg.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-wysiwyg/input-wysiwyg.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/input-wysiwyg/input-wysiwyg.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/inputs.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/pdf-import/pdf-import.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/pdf-import/pdf-import.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/pdf-import/pdf-import.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs/pdf-import/pdf-import.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/main.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/address.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/address.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/companies.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/companies.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/config.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/config.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/quill-initialize-service.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/quill-initialize-service.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/upload-file.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/main/services/upload-file.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/sign/sign.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/sign/sign.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/sign/sign.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/sign/sign.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/app/sign/sign.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/assets/scss/buttons.v3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/assets/scss/color.v3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hopen-BO/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jvV8oWF1VIpcR2ifEsmI1w0XHv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Hopen-BO/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/app/main/services" />
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/app/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/app/main/components/inputs" />
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/app/main/companies" />
+      <recent name="$PROJECT_DIR$/Hopen-BO/src/app/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Hopen-BO/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Hopen-BO/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eea7821-ac33-499e-8464-1dd9c22c52fd" name="Default Changelist" comment="" />
+      <created>1604684395360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604684395360</updated>
+      <workItem from="1604684396480" duration="4812000" />
+      <workItem from="1604692811187" duration="22518000" />
+      <workItem from="1604756223625" duration="325000" />
+      <workItem from="1604756810532" duration="11289000" />
+      <workItem from="1604788958407" duration="3763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="658" y="325" key="#Inspections" timestamp="1604748631690">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="658" y="325" key="#Inspections/0.0.2048.1280@0.0.2048.1280" timestamp="1604748631690" />
+    <state x="762" y="394" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604697564537">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="762" y="394" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1604697564537" />
+    <state width="2027" height="371" key="GridCell.Tab.0.bottom" timestamp="1604822388354">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="371" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1604822388354" />
+    <state width="2027" height="371" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1604734515277" />
+    <state width="2027" height="371" key="GridCell.Tab.0.center" timestamp="1604822388353">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="371" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1604822388353" />
+    <state width="2027" height="371" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1604734515275" />
+    <state width="2027" height="371" key="GridCell.Tab.0.left" timestamp="1604822388352">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="371" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1604822388352" />
+    <state width="2027" height="371" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1604734515272" />
+    <state width="2027" height="371" key="GridCell.Tab.0.right" timestamp="1604822388354">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="371" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1604822388354" />
+    <state width="2027" height="371" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1604734515276" />
+    <state x="100" y="100" width="1848" height="1080" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604756489702">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="100" y="100" width="1848" height="1080" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1604756489702" />
+    <state x="725" y="395" width="610" height="490" key="find.popup" timestamp="1604821154540">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="725" y="395" width="610" height="490" key="find.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1604821154540" />
+    <state x="689" y="291" width="670" height="676" key="search.everywhere.popup" timestamp="1604822343774">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="689" y="291" width="670" height="676" key="search.everywhere.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1604822343774" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Hopen-BO/src/app/main/companies/crud/crud.component.html</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+@import "../assets/scss/color.v3";
+
+.app-container {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background: $primary-blue;
+  z-index: 1000;
+}
+
+.main-container {
+  margin-top: 71px;
+  min-height: calc(100vh - 71px);
+  min-width: 100vw;
+}

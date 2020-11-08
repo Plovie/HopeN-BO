@@ -1,0 +1,45 @@
+@import "../../../../assets/scss/buttons.v3";
+@import "../../../../assets/scss/color.v3";
+
+:host {
+  width: 100%;
+}
+
+.companies-list {
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__header {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    input {
+      width: 300px;
+    }
+  }
+
+  &__list{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      width: 100%;
+
+      &:hover{
+        background: $primary-blue-0-3;
+      }
+    }
+  }
+}
+

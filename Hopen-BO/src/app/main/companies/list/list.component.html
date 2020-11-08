@@ -1,0 +1,23 @@
+<div class="companies-list__container">
+  <div class="companies-list__header ">
+    <div class="full-width">
+        <h3 class="full-width text-center">Liste des compagnies</h3>
+    </div>
+    <div>
+      <input class="custom-text" placeholder="Chercher une compagnie" [formControl]="searchCtrl">
+    </div>
+    <div>
+      <button class="main-button blue" routerLink="/compagnies/creation">Creer</button>
+    </div>
+  </div>
+  <div class="companies-list__list">
+    <ng-container *ngFor="let company of results">
+      <div class="company__card-list">
+        <p>{{company.name}}</p>
+        <div>
+          <button class="main-button blue" [routerLink]="'/compagnies/edition/'+company.uid">Editer</button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

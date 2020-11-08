@@ -1,0 +1,29 @@
+@import "../../../../../assets/scss/color.v3";
+:host{
+  width: 100%;
+}
+
+.chips {
+  margin: 5px 10px 5px 0;
+  border-radius: 6px;
+  border: solid 1px $primary-blue-0-8;
+  color: white;
+  padding: 5px;
+  background: $primary-blue-0-8;
+  span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+  }
+
+  span:hover{
+    color: black;
+    cursor: pointer;
+  }
+}
+
+select {
+  padding: 5px;
+  min-width: 100px;
+  width: 100%;
+}

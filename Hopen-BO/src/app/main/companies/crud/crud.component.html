@@ -1,0 +1,113 @@
+<div class="full-width margin__vertical">
+  <h3 class="full-width text-center">Création d'une entreprise</h3>
+</div>
+<form class="companies-crud__container" [formGroup]="companiesForm">
+
+  <div class="full-width margin__vertical flex center wrap">
+    <p class="full-width text-center">Logo de l'entreprise</p>
+    <div *ngIf="companiesForm.get('logo').value" class="full-width flex center">
+      <div>
+        <img [src]="companiesForm.get('logo').value.url">
+      </div>
+    </div>
+    <div>
+      <app-input-file formControlName="logo" placeholder="Ajouter un logo"></app-input-file>
+    </div>
+  </div>
+  <div class="width__60 margin__vertical">
+    <p>Nom de l'entreprise</p>
+    <input class="custom-text" type="text" placeholder="Nom de l'entreprise" formControlName="name">
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Adresse</p>
+    <app-input-address formControlName="address"></app-input-address>
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Categorie(s)</p>
+    <app-input-select-chips formControlName="categories" index="categories"
+                            placeholder="Categorie(s)"></app-input-select-chips>
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Services(s)</p>
+    <app-input-select-chips formControlName="services" index="service"
+                            placeholder="Services(s)"></app-input-select-chips>
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Téléphone(s)</p>
+    <app-input-multi formControlName="phone" placeholder="Téléphone(s)"></app-input-multi>
+  </div>
+
+
+  <div class="width__60 margin__vertical">
+    <p>Description</p>
+    <app-input-wysiwyg formControlName="description" placeholder="Description"></app-input-wysiwyg>
+  </div>
+
+
+  <div class="width__60 margin__vertical">
+    <p>Site Web</p>
+    <input class="custom-text" type="text" placeholder="Adresse du site Web" formControlName="web">
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Nom du Contact </p>
+    <input class="custom-text" type="text" placeholder="Nom du Contact" formControlName="contactName">
+  </div>
+
+
+  <div class="width__60 margin__vertical">
+    <p>Email du Contact </p>
+    <input class="custom-text" type="email" placeholder="Email du Contact" formControlName="contactEmail">
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Réseaux Sociaux </p>
+    <input class="custom-text" type="text" placeholder="Réseaux Sociaux" formControlName="socialNetwork">
+  </div>
+
+  <div class="width__60 margin__vertical">
+    <p>Email du reférérent </p>
+    <input class="custom-text" type="email" placeholder="Email du reférérent" formControlName="referentEmail">
+  </div>
+
+  <div class="flex space-between width__60 margin__vertical">
+    <div class="width__45 ">
+      <p class="text-center">Date d'ouverture</p>
+      <app-input-time formControlName="openTime"></app-input-time>
+    </div>
+
+    <div class="width__45 ">
+      <p class="text-center">Date de fermeture</p>
+      <app-input-time formControlName="closeTime"></app-input-time>
+    </div>
+  </div>
+
+  <div class="full-width margin__vertical flex center wrap">
+    <p class="full-width text-center">Information complémentaire</p>
+      <app-pdf-import formControlName="pdf" placeholder="Ajouter une image"></app-pdf-import>
+  </div>
+
+
+  <div class="full-width margin__vertical flex center wrap">
+    <p class="full-width text-center">Image de l'entreprise</p>
+    <div *ngIf="companiesForm.get('picture').value" class="full-width flex center">
+      <div>
+        <img [src]="companiesForm.get('picture').value.url">
+      </div>
+    </div>
+    <div>
+      <app-input-file formControlName="picture" placeholder="Ajouter une image"></app-input-file>
+    </div>
+  </div>
+
+</form>
+
+<div class="full-width flex center margin__vertical">
+  <div>
+    <button class="main-button blue" (click)="submit()" [disabled]="onSubmit"> Valider</button>
+  </div>
+</div>

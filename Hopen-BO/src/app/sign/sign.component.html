@@ -1,0 +1,13 @@
+<div class="sign__container">
+  <form [formGroup]="signInForm" (ngSubmit)="login()">
+    <div>
+      <input type="email" placeholder="Email" formControlName="login">
+    </div>
+    <div>
+      <input type="password" placeholder="Mot de passe" formControlName="password">
+    </div>
+    <div>
+      <button type="submit">Se Connecter</button>
+    </div>
+  </form>
+</div>

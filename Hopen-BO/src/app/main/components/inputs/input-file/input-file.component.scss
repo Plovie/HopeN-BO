@@ -1,0 +1,33 @@
+@import "../../../../../assets/scss/color.v3";
+
+input[type=file] {
+  opacity: 0;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0px;
+
+}
+
+.input-file-wrapper {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+  width: 100px;
+  margin: 2rem auto;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+
